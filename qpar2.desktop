@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=QPar2
+Comment=Qt GUI for Parity Volumes
+Comment[fr]=Gestionnaire de volumes de parité
+Exec=qpar2 %f
+Terminal=false
+MimeType=application/x-par;application/x-par2
+Type=Application
+Categories=Application;Utility;
+Encoding=UTF-8
+StartupNotify=true

@@ -1,0 +1,14 @@
+Source: qpar2
+Section: utils
+Priority: optional
+Maintainer: Mathieu Guilbaud <mathieu@guim.info>
+Build-Depends: debhelper (>= 5), libpar2-0-dev, libqt4-dev (>= 4.2.1), libsigc++-2.0-dev (>= 2.0.2)
+Standards-Version: 3.7.2
+
+Package: qpar2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A Qt4 GUI for verifying and repairing PAR and PAR2 recovery sets
+ A simple graphical interface for verifying and repairing
+ PAR2 recovery sets. It uses the libpar2 library to handle
+ PAR2 files. The graphical library used is Qt4.

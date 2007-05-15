@@ -1,0 +1,13 @@
+qpar2 (0.2) unstable; urgency=low
+
+  * Columns of the table widget has always good size, no horizontal bar needed
+  * Drop support: you can drop a par2 file on the GUI to start a scan
+  * When repairing the progress bar of the current filename is updated
+
+ -- Mathieu Guilbaud <mathieu@guim.info>  Fri,  6 Apr 2007 14:55:58 +0200
+
+qpar2 (0.1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Mathieu Guilbaud <mathieu@guim.info>  Wed,  4 Apr 2007 17:14:38 +0200

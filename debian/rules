@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/class/qmake.mk
+
+QMAKE=qmake-qt4
+
+binary-install/qpar2::
+	mkdir -p $(CURDIR)/debian/qpar2/usr/share/applications/
+	cp $(CURDIR)/qpar2.desktop $(CURDIR)/debian/qpar2/usr/share/applications/qpar2.desktop
+	mkdir -p $(CURDIR)/debian/qpar2/usr/share/mime/packages/
+	cp $(CURDIR)/debian/qpar2.mime $(CURDIR)/debian/qpar2/usr/share/mime/packages/qpar2.xml
+	dh_desktop -pqpar2
